@@ -1,5 +1,5 @@
 function App() {
-  return <></>;
+  return <main className="font-rubik"></main>;
 }
 
 export default App;
