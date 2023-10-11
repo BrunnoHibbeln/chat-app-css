@@ -7,9 +7,12 @@ export default {
         rubik: ["Rubik", "sans-serif"],
       },
       colors: {
+        gray: "hsl(206, 6%, 79%)",
         grayish: "hsl(270, 20%, 96%)",
+        "moderate-violet": "hsl(276, 55%, 52%)",
         "desatured-violet": "hsl(271, 36%, 24%)",
         "grayish-violet": "hsl(270, 7%, 64%)",
+        "pale-violet": "hsl(276, 100%, 81%)",
         violet: "hsl(264, 100%, 61%)",
         magenta: "hsl(293, 100%, 63%)",
         "dark-violet": "hsl(271, 15%, 43%)",
