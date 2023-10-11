@@ -2,9 +2,9 @@ import { ChevronUp, MoreVertical } from "lucide-react";
 
 export default function HeaderMockup() {
   return (
-    <header className="relative h-28 w-full rounded-b-lg rounded-t-3xl bg-gradient-to-r from-violet to-magenta">
-      <div className="absolute left-[18%] top-0 h-8 w-[11rem] rounded-b-3xl bg-white"></div>
-      <nav className="absolute bottom-5 flex w-full flex-row items-center justify-between px-3">
+    <header className="relative h-24 w-full rounded-b-lg rounded-t-3xl bg-gradient-to-r from-violet to-magenta">
+      <div className="absolute left-[19%] top-0 h-7 w-[11.7rem] rounded-b-3xl bg-white"></div>
+      <nav className="absolute bottom-4 flex w-full flex-row items-center justify-between px-3">
         <section className="flex flex-row items-center">
           <ChevronUp className="-rotate-90" color="white" />
           <section className="flex flex-row items-center justify-center gap-2">
@@ -15,7 +15,9 @@ export default function HeaderMockup() {
             />
             <article className="flex flex-col">
               <h2 className="font-medium text-grayish">Samuel Green</h2>
-              <h3 className="text-pale-violet text-xs">Available to walk</h3>
+              <h3 className="text-[0.625rem] text-pale-violet">
+                Available to walk
+              </h3>
             </article>
           </section>
         </section>

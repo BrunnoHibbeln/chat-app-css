@@ -4,7 +4,7 @@ import BackgroundMockup from "./components/BackgroundMockup";
 
 function App() {
   return (
-    <main className="font-rubik relative flex min-h-screen flex-col items-center justify-center gap-14 overflow-hidden bg-white py-16 lg:flex-row">
+    <main className="relative flex min-h-screen flex-col items-center justify-center gap-16 overflow-hidden bg-white py-16 font-rubik lg:flex-row">
       <AppMockup />
       <Article />
       <BackgroundMockup />
