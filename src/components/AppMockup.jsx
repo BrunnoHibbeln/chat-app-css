@@ -6,7 +6,7 @@ import HeaderMockup from "./HeaderMockup";
 
 export default function AppMockup() {
   return (
-    <section className="z-10 h-[42rem] w-80 overflow-hidden rounded-[2rem] border-[11px] border-white bg-grayish shadow-2xl">
+    <section className="z-10 h-[40.5rem] w-[18.75rem] overflow-hidden rounded-[2rem] border-[11px] border-white bg-grayish shadow-2xl">
       <HeaderMockup />
       <section className="flex flex-col gap-2 px-2 py-4">
         <ChatMockup
@@ -19,7 +19,7 @@ export default function AppMockup() {
           styles="chatLeft"
           text="Could you send over some pictures of your dog, please?"
         />
-        <section className="flex w-full flex-row justify-end gap-2">
+        <section className="flex w-full flex-row justify-end gap-3">
           <img
             className="h-14 w-14 rounded-lg"
             src="./dog-image-1.jpg"
